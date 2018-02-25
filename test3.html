@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_69759cc02f40434f8bb514b18d6ea8c7 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_69759cc02f40434f8bb514b18d6ea8c7" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_69759cc02f40434f8bb514b18d6ea8c7 = L.map(
+                                  'map_69759cc02f40434f8bb514b18d6ea8c7',
+                                  {center: [12.9716,77.5946],
+                                  zoom: 15,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_6d930a2aee124c4c9deec2c67c46bc0a = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_69759cc02f40434f8bb514b18d6ea8c7);
+        
+    
+
+            var marker_d515185034874d00a1f4ec086e0c5abf = L.marker(
+                [12.99528989,77.67993581],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_69759cc02f40434f8bb514b18d6ea8c7);
+            
+    
+
+                var icon_a0a887435bd1466a921c2f258fee6d07 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d515185034874d00a1f4ec086e0c5abf.setIcon(icon_a0a887435bd1466a921c2f258fee6d07);
+            
+    
+            var popup_0f86124571344f09b24bbb2e15cad95d = L.popup({maxWidth: '300'});
+
+            
+                var html_fb9945ad6a61467dab85bce08ec87740 = $('<div id="html_fb9945ad6a61467dab85bce08ec87740" style="width: 100.0%; height: 100.0%;">a-narayanapura-extension-282</div>')[0];
+                popup_0f86124571344f09b24bbb2e15cad95d.setContent(html_fb9945ad6a61467dab85bce08ec87740);
+            
+
+            marker_d515185034874d00a1f4ec086e0c5abf.bindPopup(popup_0f86124571344f09b24bbb2e15cad95d);
+
+            
+        
+    
+
+            var marker_86566420065d48cc8898c86371eb1513 = L.marker(
+                [13.07654464,77.52519014],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_69759cc02f40434f8bb514b18d6ea8c7);
+            
+    
+
+                var icon_4b308d74e5b34204a2c47660c9e867c6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_86566420065d48cc8898c86371eb1513.setIcon(icon_4b308d74e5b34204a2c47660c9e867c6);
+            
+    
+            var popup_87b5a4407d6b436383d7488f803bb3fc = L.popup({maxWidth: '300'});
+
+            
+                var html_b260f670d4164553902a43c08bb7111e = $('<div id="html_b260f670d4164553902a43c08bb7111e" style="width: 100.0%; height: 100.0%;">abbigere-585</div>')[0];
+                popup_87b5a4407d6b436383d7488f803bb3fc.setContent(html_b260f670d4164553902a43c08bb7111e);
+            
+
+            marker_86566420065d48cc8898c86371eb1513.bindPopup(popup_87b5a4407d6b436383d7488f803bb3fc);
+
+            
+        
+    
+
+            var marker_1b12fa05ab6d4b16a445170a3da02e50 = L.marker(
+                [12.96834971,77.51927689],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_69759cc02f40434f8bb514b18d6ea8c7);
+            
+    
+
+                var icon_128d6ed842154c2c9e660cfb717a1e85 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1b12fa05ab6d4b16a445170a3da02e50.setIcon(icon_128d6ed842154c2c9e660cfb717a1e85);
+            
+    
+            var popup_47fd6c0c425f4242b16c8bb041f3ee2f = L.popup({maxWidth: '300'});
+
+            
+                var html_3b10a3b4df6c44da8bb39f06d03a0c54 = $('<div id="html_3b10a3b4df6c44da8bb39f06d03a0c54" style="width: 100.0%; height: 100.0%;">adarsha-nagar-512</div>')[0];
+                popup_47fd6c0c425f4242b16c8bb041f3ee2f.setContent(html_3b10a3b4df6c44da8bb39f06d03a0c54);
+            
+
+            marker_1b12fa05ab6d4b16a445170a3da02e50.bindPopup(popup_47fd6c0c425f4242b16c8bb041f3ee2f);
+
+            
+        
+    
+
+            var marker_1e88a371c6184745894d20dd86d18004 = L.marker(
+                [12.96080893,77.77101169],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_69759cc02f40434f8bb514b18d6ea8c7);
+            
+    
+
+                var icon_a051462d81574adbbdce4ec080df95fa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1e88a371c6184745894d20dd86d18004.setIcon(icon_a051462d81574adbbdce4ec080df95fa);
+            
+    
+            var popup_7efa117875c449b6a33c5cbfccd24a53 = L.popup({maxWidth: '300'});
+
+            
+                var html_d0ccfa5efa044952a0b4e163ed254f28 = $('<div id="html_d0ccfa5efa044952a0b4e163ed254f28" style="width: 100.0%; height: 100.0%;">ajagondanahalli-868</div>')[0];
+                popup_7efa117875c449b6a33c5cbfccd24a53.setContent(html_d0ccfa5efa044952a0b4e163ed254f28);
+            
+
+            marker_1e88a371c6184745894d20dd86d18004.bindPopup(popup_7efa117875c449b6a33c5cbfccd24a53);
+
+            
+        
+</script>
