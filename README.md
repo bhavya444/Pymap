@@ -6,4 +6,4 @@ Bengaluru city map with marker points developed using Python.
 ![alt text](one.png)
 
 # To use folium 
-using the terminal, type : pip install folium
+In the terminal, type : pip install folium
